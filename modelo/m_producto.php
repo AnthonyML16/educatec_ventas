@@ -100,7 +100,7 @@ function ActualizarProducto($id_producto,$nom,$prec,$prev,$desc)
 	mysqli_close($con);
 }
 
-function ventaPorProducto() {
+/* function ventaPorProducto() {
 	require("conexion.php");
 
 	$sql="SELECT nom_producto AS dat_producto, SUM(vd.cant_ventadetalle) AS cantidad 
@@ -120,5 +120,5 @@ function ventaPorProducto() {
 	return $datos;
 
 	mysqli_close($con);
-}
+} */
 ?>
